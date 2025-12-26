@@ -1,0 +1,10 @@
+torch>=2.4
+transformers>=4.45
+datasets>=3.0
+accelerate>=1.0
+peft>=0.13
+scikit-learn
+numpy
+pandas
+matplotlib
+tabulate

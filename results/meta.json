@@ -1,0 +1,18 @@
+{
+  "LoRA SLM (0.5B)": {
+    "trainable": 2164480,
+    "total": 496199040
+  },
+  "LoRA SLM + AdvTrain": {
+    "trainable": 2164480,
+    "total": 496199040
+  },
+  "LoRA LLM (7B)": {
+    "trainable": 10099712,
+    "total": 7080726016
+  },
+  "LoRA LLM + AdvTrain": {
+    "trainable": 10099712,
+    "total": 7080726016
+  }
+}
