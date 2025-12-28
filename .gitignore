@@ -1,5 +1,15 @@
 __pycache__/
 *.pyc
 outputs/
-adapters/
+# The 0.5B adapters (8 MB each) ship with the repo so `predict.py` works
+# straight after a clone. The 7B ones (39 MB each) do not.
+adapters/lora_llm/
+adapters/lora_llm_adv/
 *.log
+# Tokenizer files are identical to the base model's and are ~11 MB each;
+# predict.py loads them from the base checkpoint instead.
+adapters/*/tokenizer.json
+adapters/*/tokenizer_config.json
+adapters/*/chat_template.jinja
+adapters/*/vocab.json
+adapters/*/merges.txt
